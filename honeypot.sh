@@ -24,7 +24,7 @@ echo "+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+
 +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+"
 echo -e " \n"
 echo "instalasi Honeypot Cowrie"
-sudo docker pull d213honeynet/cowrie:version1
+sudo docker pull d213honeynet/cowrie:final
 
 echo -e " \n"
 echo "+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+
@@ -32,7 +32,7 @@ echo "+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+
 +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+"
 echo -e " \n"
 echo "instalasi Honeypot Dionaea"
-#sudo docker pull d213honeynet/dionaea:version4
+#sudo docker pull d213honeynet/dionaea:final
 sudo apt-get update
 sudo apt-get install unzip
 git clone https://github.com/DinoTools/dionaea
@@ -49,7 +49,7 @@ echo "+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+
 +-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+"
 echo -e " \n"
 echo "instalasi Honeypot Glastopf"
-sudo docker pull d213honeynet/glastopf:version1
+sudo docker pull d213honeynet/glastopf:final
 
 echo -e " \n"
 echo "Instalasi Selesai"
