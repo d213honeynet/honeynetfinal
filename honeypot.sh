@@ -33,9 +33,8 @@ echo "+-+-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+-+ +-+-+-+-+-+-+-+
 echo -e " \n"
 echo "instalasi Honeypot Dionaea"
 #sudo docker pull d213honeynet/dionaea:version4
-#sudo apt-get install unzip
-#unzip dionaea.zip
 sudo apt-get update
+sudo apt-get install unzip
 git clone https://github.com/DinoTools/dionaea
 cd dionaea/
 sudo docker build -t d213honeynet/dionaea:version1 . --force-rm=true
