@@ -37,7 +37,7 @@ sudo apt-get update
 sudo apt-get install unzip
 git clone https://github.com/DinoTools/dionaea
 cd dionaea/
-sudo docker build -t d213honeynet/dionaea:version1 . --force-rm=true
+sudo docker build -t d213honeynet/dionaea:final . --force-rm=true
 cd ..
 unzip dionaea-conf.zip
 mkdir /home/${USER}/dionaea
